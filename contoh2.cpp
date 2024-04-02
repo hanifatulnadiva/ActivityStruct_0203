@@ -17,5 +17,13 @@ int main(){
     Mahasiswa mhs;
     cout<<"Nomor Mahasiswa:";
     cin>> mhs.nim;
+    cout<<"Nama Mahasiswa:";
+    cin>> mhs.nama;
+
+    cout<<"Alamat Mahasiswa:";
+    cout<<"\t Nama desa:";
+    cin>>mhs.alamat.desa;
+    cout<<"\t Nama kota: ";
+    cin>>mhs.alamat.kota;
 
 }
