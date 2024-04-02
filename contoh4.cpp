@@ -4,7 +4,7 @@ using namespace std;
 struct DetailAlamat {
     string desa;
     string kota;
-}
+};
 
 struct Mahasiswa {
     string nim;
@@ -42,7 +42,7 @@ int main()
 		cout << "\n Desa = " << mhs[i].alamat.desa;
 		cout << "\n Kota = " << mhs[i].alamat.kota;
 		cout << "\n Umur = " << mhs[i].umur;
-		cout << endl;
+		cout << endl;
 	}
 
 
